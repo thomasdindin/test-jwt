@@ -1,0 +1,21 @@
+{
+    "name": "thoma/test-jwt",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.9",
+        "paragonie/sodium_compat": "^1.20",
+        "lcobucci/jwt": "^4.0"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Thoma\\TestJwt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "thomasdindin",
+            "email": "thomas.dindin@gmail.com"
+        }
+    ]
+}
