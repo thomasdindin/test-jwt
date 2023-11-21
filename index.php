@@ -8,8 +8,12 @@
     <button onclick="clearJWT()">Effacer JWT</button>
     <!-- Récupérer la date depuis l'api -->
     <button onclick="getDateTimeFromApi()">Récupérer la date depuis l'api</button>
+    <!-- Récupérer les informations de l'utilisateur depuis l'api -->
+    <button onclick="getUserInfoFromApi()">Récupérer les informations de l'utilisateur depuis l'api</button>
 </fieldset>
 
-<p>Réponse : <span id="test"></span></p>
+<p>Réponse :
+    <span id="test"></span>
+</p>
 
 <script src="app.js"></script>

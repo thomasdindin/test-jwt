@@ -33,4 +33,14 @@ class TokenHandler {
         $users = ['thomasdindin', 'johndoe', 'janedoe'];
         return in_array($user, $users);
     }
+
+    public function getUserInfo($user) {
+        // Get the user information from the database
+        // Return the user information as an array
+        return [
+            'id' => 123,
+            'username' => $user,
+            'email' => $user . '@gmail.com'
+        ];
+    }
 }
